@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(67, 112, 211);
+}
+.header{
+    background-color: hsl(236, 43%, 33%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.5);
+}
+.attempts{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    font-size: large;
+    font-weight: 600;
+
+}
+.attempts p{
+    margin-left: 30px;
+}
+.input{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.input input{
+    height: 35px;
+    width: 250pxpx;
+    margin-left: 20px;
+    background-color:hsl(236, 30%, 73%); 
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.input input:hover{
+    border: 1px solid rgb(112, 198, 255);
+}
+
+.error{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 41, 41);
+    font-size: 20px;
+}
+#error1{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+#error2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.submit button{
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(63, 50, 50);
+    width:150px;
+    background-color:hsl(236, 30%, 73%); 
+
+}
+.submit button:active{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5)
+}
+.submit button:hover{
+    background-color: hsl(236, 14%, 55%);
+}
+.hints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    margin-top: 15px;
+    font-size: larger;
+}
+#hint1{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#hint2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#hint3{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}

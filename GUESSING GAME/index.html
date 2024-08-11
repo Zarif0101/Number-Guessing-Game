@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>
+                Guess The Number ( 1 - 100 )
+            </h2>
+        </div>
+
+    </header>
+    <main>
+        <div class="attempts" >
+            <p id="attempts">Attempts: 0</p>
+        </div>
+        <div class="input">
+            <p>Your Guess: </p>
+            <input type="text" placeholder="GUESS" id="input">
+        </div>
+        <div class="error" >
+            <p id="error1" >Enter a Valid Number</p>
+            <p id="error2">Enter a number between 1-100</p>
+        </div>
+        <div class="submit" >
+            <button id="submit" >submit</button>
+        </div>
+        <div class="hints" >
+            <p id="hint1"> HIGHER </p>
+            <p id="hint2"> LOWER </p>
+            <p id="hint3"> Congratulation </p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
